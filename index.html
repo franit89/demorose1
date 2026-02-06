@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rose Day Special 💌</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Floating hearts and flowers background -->
+    <div id="floating-background"></div>
+
+    <!-- Page 1: Envelope Page -->
+    <div class="page active" id="page-envelope">
+        <div class="container">
+            <h1 class="title">Click on the Envelope 💌</h1>
+            <p class="subtitle">A special Rose Day surprise awaits inside</p>
+            
+            <!-- Envelope -->
+            <div class="envelope-wrapper" id="envelope-wrapper">
+                <div class="envelope">
+                    <div class="envelope-front">
+                        <div class="envelope-flap"></div>
+                        <div class="envelope-body">
+                            <div class="heart-icon">💖</div>
+                        </div>
+                    </div>
+                    <div class="envelope-back"></div>
+                </div>
+            </div>
+
+            
+        </div>
+    </div>
+
+    <!-- Page 2: Rose Day Card -->
+    <div class="page" id="page-card">
+        <div class="card-container">
+            <div class="rose-day-card">
+                <!-- You can replace this with your own image path -->
+                <img src="rose.png" alt="Rose" class="rose-image" id="rose-image">
+                
+                <div class="card-content">
+                    <h2 class="card-title">Happy Rose Day! 🌹</h2>
+                    <div class="card-message">
+                        <p>My Dearest,</p>
+                        <p>On this beautiful Rose Day, I want to express my feelings through this special red rose. Just like every rose has its own unique beauty, you have a unique place in my heart.</p>
+                        <p>This rose represents my admiration, affection, and the blossoming love I have for you. May its fragrance remind you of the sweet moments we've shared and the many more to come.</p>
+                        <p>Each petal represents a wish for your happiness, a hope for your smile, and a prayer for your well-being. May your life be as beautiful and fragrant as this rose.</p>
+                        <p class="signature">With all my love,<br>Your Secret Admirer</p>
+                    </div>
+                </div>
+                
+                <button class="back-btn" id="back-btn">
+                    <i class="fas fa-envelope"></i> Back to Envelope
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Audio for background music -->
+    <audio id="background-music" loop preload="auto">
+        <source src="Music.mp3" type="audio/mpeg">
+    </audio>
+
+    <script src="script.js"></script>
+</body>
+</html>
